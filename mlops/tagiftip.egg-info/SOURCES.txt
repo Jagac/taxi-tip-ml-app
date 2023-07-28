@@ -1,0 +1,5 @@
+setup.py
+tagiftip.egg-info/PKG-INFO
+tagiftip.egg-info/SOURCES.txt
+tagiftip.egg-info/dependency_links.txt
+tagiftip.egg-info/top_level.txt
