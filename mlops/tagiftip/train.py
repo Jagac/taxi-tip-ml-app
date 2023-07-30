@@ -15,15 +15,13 @@ class ModelTrainer:
     def __init__(self, df: pd.DataFrame) -> None:
         utils.set_seeds()
         self.y = df.tipped
-        self.X = df.drop(["tipped", "store_and_fwd_flag_ohe"], axis=1)
+        self.X = df.drop('tipped', axis=1)
         self.X_train, self.X_test, self.y_train, self.y_test = data.get_data_splits(
             self.X, self.y, train_size=0.7
         )
         self.X_over, self.y_over = data.oversample_data(self.X_train, self.y_train)
 
-    def objective(self, 
-                  trial: optuna.trial
-                  )-> float:
+    def objective(self, trial: optuna.trial) -> float:
         """Hyperparameter tuning experiment.
 
         Args:
@@ -53,7 +51,7 @@ class ModelTrainer:
         return accuracy
 
     def optimize_params(self, 
-                        study_name: str, 
+                        study_name: str,
                         num_trials: str,
                         objective: callable
                         ) -> dict:
@@ -67,7 +65,7 @@ class ModelTrainer:
         Returns:
             dict: best parameters.
         """
-        
+
         pruner = optuna.pruners.MedianPruner(n_startup_trials=5, n_warmup_steps=5)
         study = optuna.create_study(
             study_name=study_name, direction="maximize", pruner=pruner
@@ -80,7 +78,8 @@ class ModelTrainer:
 
         return study.best_trial.params
 
-    def auto_train(self, run_name: str, 
+    def auto_train(self, 
+                   run_name: str, 
                    experiment_name: str
                    ) -> None:
         """Performs automatic tuning and logs the model with best hyperparameters
@@ -89,6 +88,8 @@ class ModelTrainer:
             run_name (str): name of the run with the best params
             experiment_name (str): name of the experiment for model with best params
         """
+        
+    
         logger.info("Optimization started!")
         params = self.optimize_params(
             "auto_train", num_trials=2, objective=self.objective
@@ -100,7 +101,7 @@ class ModelTrainer:
             model.fit(self.X_over, self.y_over)
 
             y_pred = model.predict(self.X_test)
-            signature = mlflow.infer_signature(self.X_test, y_pred)
+            signature = mlflow.models.infer_signature(self.X_test, y_pred)
 
             mlflow.log_params(params)
             mlflow.log_metrics({"accuracy": accuracy_score(self.y_test, y_pred)})
@@ -109,6 +110,7 @@ class ModelTrainer:
                 xgb_model=model,
                 artifact_path=f"xgb-model-{datetime.datetime.now()}",
                 signature=signature,
+                registered_model_name="xgb_tip_no_tip",
             )
 
         logger.info("Optimization complete!")
@@ -133,7 +135,7 @@ class ModelTrainer:
         """
 
         logger.info("Manual training started!")
-        
+
         params = {
             "max_depth": max_depth,
             "learning_rate": learning_rate,
@@ -153,7 +155,7 @@ class ModelTrainer:
             model.fit(self.X_over, self.y_over)
 
             y_pred = model.predict(self.X_test)
-            signature = mlflow.infer_signature(self.X_test, y_pred)
+            signature = mlflow.models.infer_signature(self.X_test, y_pred)
 
             mlflow.log_params(params)
             mlflow.log_metrics({"accuracy": accuracy_score(self.y_test, y_pred)})

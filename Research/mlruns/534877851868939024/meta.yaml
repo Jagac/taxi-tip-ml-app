@@ -1,0 +1,6 @@
+artifact_location: file:///home/jagac/projects/taxi-tip-mlapp/Research/mlruns/534877851868939024
+creation_time: 1690742680197
+experiment_id: '534877851868939024'
+last_update_time: 1690742680197
+lifecycle_stage: active
+name: auto_train

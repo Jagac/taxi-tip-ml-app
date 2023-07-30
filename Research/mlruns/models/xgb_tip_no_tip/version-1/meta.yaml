@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1690745425994
+current_stage: Production
+description: null
+last_updated_timestamp: 1690745782560
+name: xgb_tip_no_tip
+run_id: 61516d4c3e6848068b6b1613b3f8b355
+run_link: null
+source: file:///home/jagac/projects/taxi-tip-mlapp/Research/mlruns/654781923270945138/61516d4c3e6848068b6b1613b3f8b355/artifacts/xgb-model-2023-07-30
+  12:30:24.166188
+status: READY
+status_message: null
+user_id: null
+version: 1

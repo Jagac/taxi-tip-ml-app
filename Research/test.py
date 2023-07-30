@@ -15,7 +15,7 @@ df["tipped"].value_counts()
 df["trip_time"] = (df.tpep_pickup_datetime - df.tpep_dropoff_datetime).astype(
     "timedelta64[s]"
 ) / np.timedelta64(1, "s")
-df = df.drop(["tpep_pickup_datetime", "tpep_dropoff_datetime"], axis=1)
+df = df.drop(["tpep_pickup_datetime", "tpep_dropoff_datetime", "tip_amount"], axis=1)
 
 one_hot_enc = OneHotEncoder()
 arr = one_hot_enc.fit_transform(df[["store_and_fwd_flag"]])
@@ -97,12 +97,29 @@ import json
 print(f"Best value (f1): {study.best_trial.value}")
 print(f"Best hyperparameters: {json.dumps(study.best_trial.params, indent=2)}")
 
+import mlflow.xgboost
+from mlflow.models import infer_signature
+
+
 
 params = study.best_trial.params
-mlflow.autolog()
 
-optuna_model = XGBClassifier(**params, n_jobs=-1)
-optuna_model.fit(X_over, y_over)
 
-y_pred = optuna_model.predict(X_test)
-accuracy = accuracy_score(y_test, y_pred)
+with mlflow.start_run() as run:
+    model = XGBClassifier(**params, n_jobs=-1)
+    model.fit(X_over, y_over)
+
+   
+    y_pred = model.predict(X_test)
+    signature = infer_signature(X_test, y_pred)
+    
+    mlflow.log_params(params)
+    mlflow.log_metrics({"accuracy": accuracy_score(y_test, y_pred)})
+    
+    
+    mlflow.xgboost.log_model(
+        xgb_model = model,
+        artifact_path="xgb-model",
+        signature=signature,
+        registered_model_name="xgb_tip_no_tip",
+    )

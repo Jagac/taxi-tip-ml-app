@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jagac/projects/taxi-tip-mlapp/Research/mlruns/534877851868939024/62119688fc384147a6ec14523ce96559/artifacts
+end_time: 1690743117800
+entry_point_name: ''
+experiment_id: '534877851868939024'
+lifecycle_stage: active
+run_id: 62119688fc384147a6ec14523ce96559
+run_name: '2'
+run_uuid: 62119688fc384147a6ec14523ce96559
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690743117787
+status: 3
+tags: []
+user_id: jagac

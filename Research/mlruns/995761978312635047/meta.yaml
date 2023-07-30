@@ -1,0 +1,6 @@
+artifact_location: file:///home/jagac/projects/taxi-tip-mlapp/Research/mlruns/995761978312635047
+creation_time: 1690218852566
+experiment_id: '995761978312635047'
+last_update_time: 1690218852566
+lifecycle_stage: active
+name: xgboost_optimization

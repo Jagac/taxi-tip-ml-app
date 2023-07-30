@@ -1,0 +1,7 @@
+artifact_location: file:///home/jagac/projects/taxi-tip-mlapp/Research/mlruns/675979751272874323
+creation_time: 1690744189432
+experiment_id: '675979751272874323'
+last_update_time: 1690745049195
+lifecycle_stage: deleted
+name: xgb_auto_tune
+tags: {}

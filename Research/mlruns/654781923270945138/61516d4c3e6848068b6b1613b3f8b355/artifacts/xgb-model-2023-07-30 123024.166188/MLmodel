@@ -1,0 +1,30 @@
+artifact_path: xgb-model-2023-07-30 12:30:24.166188
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.6
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: xgb
+    xgb_version: 1.7.6
+mlflow_version: 2.5.0
+model_uuid: 8e85b4db87e540a791edef25e4e81c7b
+run_id: 61516d4c3e6848068b6b1613b3f8b355
+signature:
+  inputs: '[{"type": "integer", "name": "VendorID"}, {"type": "double", "name": "passenger_count"},
+    {"type": "double", "name": "trip_distance"}, {"type": "double", "name": "RatecodeID"},
+    {"type": "integer", "name": "PULocationID"}, {"type": "integer", "name": "DOLocationID"},
+    {"type": "long", "name": "payment_type"}, {"type": "double", "name": "fare_amount"},
+    {"type": "double", "name": "extra"}, {"type": "double", "name": "mta_tax"}, {"type":
+    "double", "name": "tolls_amount"}, {"type": "double", "name": "improvement_surcharge"},
+    {"type": "double", "name": "total_amount"}, {"type": "double", "name": "congestion_surcharge"},
+    {"type": "double", "name": "Airport_fee"}, {"type": "double", "name": "trip_time"},
+    {"type": "boolean", "name": "ohe_Y"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2023-07-30 19:30:24.166728'
