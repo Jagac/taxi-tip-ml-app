@@ -1,7 +1,4 @@
-# IT Job Posting Data App
-
-This project grabs data from a job posting website and uses Plotly/Dash for visualizations.
-
+# Will a driver receive a tip?
 
 ## Getting Started
 
