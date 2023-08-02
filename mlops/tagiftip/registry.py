@@ -1,7 +1,8 @@
 import mlflow
 import pandas as pd
-from config.config import MODEL_REGISTRY
 from mlflow import MlflowClient
+
+from config.config import MODEL_REGISTRY
 
 mlflow.set_tracking_uri("file://" + str(MODEL_REGISTRY.absolute()))
 
@@ -25,15 +26,19 @@ class RegistryManipulator:
         for mv in self.client.search_model_versions(f"name='{self.model_name}'"):
             info = dict(mv)
             if info["current_stage"] == "Production":
-                print(info)
+                print(f"[MODEL INFO] : {info}")
 
     def fetch_model_from_registry(self, model_version: int) -> None:
-        # mlflow.artifacts.download_artifacts("file:///home/jagac/projects/taxi-tip-mlapp/Research/mlruns/995761978312635047/22bae30ec72e43299490cfa64f20ec20/artifacts/xgb-model")
+        mlflow.artifacts.download_artifacts(
+            "file:///home/jagac/projects/taxi-tip-mlapp/Research/mlruns/654781923270945138/61516d4c3e6848068b6b1613b3f8b355/artifacts/xgb-model-2023-07-30 12:30:24.166188"
+        )
         self.model = mlflow.pyfunc.load_model(
             model_uri=f"models:/{self.model_name}/{model_version}"
         )
 
+        return self.model
+
     def make_prediction(self, df: pd.DataFrame) -> None:
         result = self.model.predict(df)
-        
+
         return result

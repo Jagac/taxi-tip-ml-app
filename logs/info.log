@@ -55,3 +55,630 @@ Preprocessing complete!
 INFO 2023-07-30 12:41:40,314 [root:data.py:preprocess:32]
 Preprocessing complete!
 
+INFO 2023-07-30 15:21:28,034 [root:data.py:preprocess:32]
+Preprocessing complete!
+
+INFO 2023-07-30 15:21:52,609 [root:data.py:preprocess:32]
+Preprocessing complete!
+
+INFO 2023-07-30 15:26:38,802 [root:data.py:preprocess:32]
+Preprocessing complete!
+
+INFO 2023-07-30 15:27:37,143 [root:data.py:preprocess:32]
+Preprocessing complete!
+
+INFO 2023-07-30 15:28:22,560 [root:data.py:preprocess:32]
+Preprocessing complete!
+
+INFO 2023-07-30 15:31:23,368 [root:main.py:load_artifacts:46]
+Ready for inference!
+
+INFO 2023-07-30 15:32:55,022 [root:main.py:load_artifacts:46]
+Ready for inference!
+
+INFO 2023-07-30 17:29:50,762 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-30 18:05:28,794 [root:main.py:load_artifacts:47]
+Ready for inference!
+
+INFO 2023-07-30 18:12:35,286 [root:main.py:load_artifacts:47]
+Ready for inference!
+
+INFO 2023-07-30 18:31:26,271 [root:main.py:load_artifacts:47]
+Ready for inference!
+
+INFO 2023-07-30 18:43:16,601 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-30 18:47:43,514 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-30 18:50:07,274 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-30 18:52:39,927 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-30 18:54:50,634 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-30 18:58:37,372 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-30 19:01:36,098 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-30 19:01:55,048 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:35:24,693 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 13:36:03,463 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:36:57,461 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:37:19,475 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:37:45,930 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:38:24,506 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:38:53,641 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:39:31,855 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:41:34,895 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:41:54,571 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:43:26,733 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:44:27,850 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 13:44:35,243 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:46:35,777 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:47:52,736 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:48:18,611 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:49:26,205 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:49:52,119 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:50:26,166 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 13:50:44,528 [root:data.py:preprocess:34]
+Preprocessing complete!
+
+INFO 2023-07-31 13:51:26,098 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 13:51:46,512 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 13:53:06,406 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 13:53:54,533 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 13:58:12,858 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 13:59:14,005 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:01:50,057 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:12:28,103 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:21:10,881 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:22:10,429 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:22:48,281 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:23:41,256 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:24:29,804 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:25:07,784 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:29:42,450 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:29:59,809 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:35:45,438 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:36:22,218 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:36:52,909 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:38:17,269 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:40:12,274 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:40:25,167 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:43:47,241 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:44:05,447 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:44:23,731 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:46:09,469 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:46:27,935 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:47:12,945 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:47:51,893 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:49:22,131 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:49:39,220 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:50:21,572 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:50:33,894 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:50:47,794 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:51:16,399 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:51:24,899 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 14:51:43,925 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:51:54,397 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:51:59,506 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:52:12,379 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:53:14,257 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:57:36,860 [root:main.py:_load:49]
+Ready for inference!
+
+INFO 2023-07-31 14:58:53,160 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:00:11,402 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:09:55,586 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:10:41,993 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:12:12,413 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:12:47,743 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:14:50,294 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:16:24,488 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:17:27,231 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:17:49,923 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:18:00,365 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:18:08,292 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:22:11,824 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:22:58,756 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:25:32,435 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:27:30,377 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:28:22,297 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:29:21,198 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:31:00,990 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:31:44,143 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:32:08,161 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:32:34,288 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:33:46,729 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:34:41,994 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:35:25,784 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:36:01,164 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:36:26,700 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:37:20,932 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:37:50,025 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:40:02,672 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:42:50,498 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:44:39,595 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:45:29,599 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:48:22,101 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:48:54,050 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:49:16,521 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:50:22,014 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:51:18,833 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:52:17,349 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:52:52,926 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:55:06,536 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 15:58:39,998 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 16:00:09,803 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 16:00:44,129 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 16:01:54,491 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 16:02:15,573 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 16:29:26,868 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 16:30:04,284 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 16:30:51,882 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 16:33:10,301 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 16:33:42,771 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 16:37:27,441 [root:main.py:load_artifacts:53]
+Ready for inference!
+
+INFO 2023-07-31 16:38:15,885 [root:main.py:load_artifacts:54]
+Ready for inference!
+
+INFO 2023-07-31 16:38:34,541 [root:main.py:load_artifacts:54]
+Ready for inference!
+
+INFO 2023-07-31 16:38:40,110 [root:main.py:load_artifacts:54]
+Ready for inference!
+
+INFO 2023-07-31 16:38:48,513 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 16:39:13,185 [root:main.py:load_artifacts:54]
+Ready for inference!
+
+INFO 2023-07-31 16:39:25,813 [root:main.py:load_artifacts:54]
+Ready for inference!
+
+INFO 2023-07-31 16:40:05,622 [root:main.py:load_artifacts:54]
+Ready for inference!
+
+INFO 2023-07-31 16:40:34,430 [root:main.py:load_artifacts:54]
+Ready for inference!
+
+INFO 2023-07-31 16:40:39,459 [root:main.py:load_artifacts:54]
+Ready for inference!
+
+INFO 2023-07-31 16:41:11,569 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-07-31 16:42:05,105 [root:main.py:load_artifacts:54]
+Ready for inference!
+
+INFO 2023-07-31 16:43:02,204 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:43:38,601 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:43:43,691 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:44:00,387 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:44:15,584 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:44:47,113 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:44:58,055 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:45:05,080 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:45:12,515 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:45:23,997 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:45:34,306 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:46:08,273 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:46:13,348 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:46:40,752 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:46:56,454 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:47:06,683 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 16:47:14,463 [root:main.py:_model:54]
+Ready for inference!
+
+INFO 2023-07-31 17:03:11,165 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 12:25:06,510 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 12:25:40,086 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:26:41,655 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:27:23,171 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:27:39,631 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 12:28:58,939 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:29:06,753 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 12:29:48,577 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:29:57,950 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:30:05,442 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:30:06,261 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 12:30:20,305 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:30:25,107 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:30:31,651 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:30:46,521 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:30:51,171 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:31:00,369 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:31:06,933 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:31:14,062 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:31:22,634 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:31:27,672 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:31:34,782 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:31:42,885 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 12:32:03,945 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:32:06,511 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 12:32:57,965 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:32:58,377 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 12:33:44,473 [root:api.py:_model:52]
+Ready for inference!
+
+INFO 2023-08-02 12:48:38,431 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 12:48:41,268 [root:data.py:get_data_splits:46]
+Data split complete!
+
+INFO 2023-08-02 12:48:50,654 [root:data.py:oversample_data:57]
+Balancing complete!
+
+INFO 2023-08-02 12:48:50,655 [root:train.py:manual_train:137]
+Manual training started!
+
+INFO 2023-08-02 12:51:33,563 [root:train.py:manual_train:169]
+Manual training complete!
+
+INFO 2023-08-02 13:05:29,213 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 13:06:05,950 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 13:06:50,108 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 13:07:13,773 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 13:10:14,480 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 13:11:02,432 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 13:12:57,156 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 13:24:01,891 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 13:24:50,388 [root:data.py:preprocess:33]
+Preprocessing complete!
+
+INFO 2023-08-02 13:24:52,433 [root:data.py:get_data_splits:46]
+Data split complete!
+
+INFO 2023-08-02 13:24:59,441 [root:data.py:oversample_data:57]
+Balancing complete!
+
+INFO 2023-08-02 13:24:59,441 [root:train.py:manual_train:137]
+Manual training started!
+
+INFO 2023-08-02 13:28:31,234 [root:train.py:manual_train:169]
+Manual training complete!
+
+INFO 2023-08-02 13:49:21,010 [root:data.py:preprocess:33]
+Preprocessing complete!
+

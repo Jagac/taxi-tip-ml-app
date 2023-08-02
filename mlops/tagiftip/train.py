@@ -4,10 +4,10 @@ import mlflow
 import optuna
 import pandas as pd
 import xgboost as xgb
-from config.config import logger
 from optuna.integration.mlflow import MLflowCallback
 from sklearn.metrics import accuracy_score
 
+from config.config import logger
 from tagiftip import data, utils
 
 
@@ -15,7 +15,7 @@ class ModelTrainer:
     def __init__(self, df: pd.DataFrame) -> None:
         utils.set_seeds()
         self.y = df.tipped
-        self.X = df.drop('tipped', axis=1)
+        self.X = df.drop("tipped", axis=1)
         self.X_train, self.X_test, self.y_train, self.y_test = data.get_data_splits(
             self.X, self.y, train_size=0.7
         )
@@ -50,11 +50,9 @@ class ModelTrainer:
 
         return accuracy
 
-    def optimize_params(self, 
-                        study_name: str,
-                        num_trials: str,
-                        objective: callable
-                        ) -> dict:
+    def optimize_params(
+        self, study_name: str, num_trials: str, objective: callable
+    ) -> dict:
         """Apply the objective function and start training
 
         Args:
@@ -74,22 +72,20 @@ class ModelTrainer:
             tracking_uri=mlflow.get_tracking_uri(), metric_name="accuracy"
         )
 
-        study.optimize(objective, n_trials=num_trials, callbacks=[mlflow_callback])
+        study.optimize(
+            objective, n_trials=num_trials, callbacks=[mlflow_callback], n_jobs=-1
+        )
 
         return study.best_trial.params
 
-    def auto_train(self, 
-                   run_name: str, 
-                   experiment_name: str
-                   ) -> None:
+    def auto_train(self, run_name: str, experiment_name: str) -> None:
         """Performs automatic tuning and logs the model with best hyperparameters
 
         Args:
             run_name (str): name of the run with the best params
             experiment_name (str): name of the experiment for model with best params
         """
-        
-    
+
         logger.info("Optimization started!")
         params = self.optimize_params(
             "auto_train", num_trials=2, objective=self.objective
@@ -128,7 +124,7 @@ class ModelTrainer:
         colsample_bytree: float,
         reg_alpha,
         reg_lambda: float,
-        ) -> None:
+    ) -> None:
         """Performs manual training, requires specific hyperparameters
         Args:
             https://xgboost.readthedocs.io/en/stable/python/python_api.html#module-xgboost.sklearn
@@ -167,3 +163,5 @@ class ModelTrainer:
             )
 
         logger.info("Manual training complete!")
+
+        return model

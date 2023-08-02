@@ -1,0 +1,6 @@
+artifact_location: file:///home/jagac/projects/taxi-tip-mlapp/Research/mlruns/886544740864537614
+creation_time: 1691005730677
+experiment_id: '886544740864537614'
+last_update_time: 1691005730677
+lifecycle_stage: active
+name: xgb_manual
