@@ -1,5 +1,8 @@
 # Will a driver receive a tip?
 
+![Alt text](structure.png)
+
+
 ## Getting Started
 
     python -m venv env
